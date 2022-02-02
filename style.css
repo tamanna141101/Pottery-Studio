@@ -201,4 +201,42 @@ button {
     height: 580px;   
 }
 
+/* footer */
+.footer_section{
+    height:450px;
+    width: 100%;  
+    color: #fff;
+    background-color:rgb(39, 35, 35); 
+    background-position: center;
+    background-size: cover; 
+    text-align: center;
+    padding: 100px;
+}
 
+.subscribe h1{
+    font-size: 35px;
+}
+   
+
+.subscribe p {
+    margin: 10px 120px;
+    font-size: 14px;
+      
+}
+
+input {
+    width: 50%;
+    padding: 5px;
+    
+}
+
+.email{
+    float: left;
+    width: 50%;
+     
+ }
+
+ .btn button{
+    float: right;
+    width: 50%;
+ }
