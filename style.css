@@ -97,20 +97,21 @@ button {
     width: 35%;
     height: 100%;
     background-color: rgb(255, 255, 255);
+    
  }
 
  .workshop_left h1{
-    padding-top:150px ; 
-    padding-left: 40px;
+    padding-top:50px ; 
+    padding-left: 70px;
     
        
  }
  .workshop_left p {
-    padding:40px ;
+    padding:70px ;
 }
 
 .workshop_left button{
-    margin-left: 40px;
+    margin-left: 70px;
 }
  .workshop_right {
     float: right;
@@ -146,16 +147,58 @@ button {
     color: #fff;
     background-color: rgb(44, 43, 43);
     
+    
  }
 
  .studio_right h1{
-    padding-left: 40px;
-    padding-top:150px ;    
+    padding-left: 70px;
+    padding-top:50px ;    
  }
  .studio_right p {
-    padding:40px ;
+    padding:70px;
 }
 .studio_right button{
-    margin-left: 40px;
+    margin-left: 70px;
 }
+
+/* Student Section */
+.student_section {
+    height: 660px;   
+    background-size: cover;
+    background-color: rgb(38, 34, 34);
+}
+
+.student_card {
+    width: 500px;
+    background-color: rgb(248, 239, 239);
+    height: 400px;
+    padding: 100px 40px;
+    margin: 260px 0 0 200px;
+    position: absolute;
+}
+
+.student_card h2{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.student_card p {
+    margin: 10px 20px;
+    font-size: 14px;
+      
+}
+
+.student_card h3{
+    margin-left: 20px;
+    font-size: 20px;
+    color: rgb(39, 35, 35);
+}
+.student_picture {
+    width: 100%;
+
+}
+.Student_picture img{
+    height: 580px;   
+}
+
 
