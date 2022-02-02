@@ -16,10 +16,7 @@ button {
 
 }
 
-.main{
-    background-position: center;
-    background-size: cover;
-}
+
 /* Header section */
 
 .header_section {
@@ -27,6 +24,8 @@ button {
     width: 100%;
     background-image: url("Image_1.png");  
     color: #fff;
+    background-position: center;
+    background-size: cover;
 }
 
 .content {
@@ -43,13 +42,14 @@ button {
     font-size: 16px;
     margin: 20px 0px;
     color: #e9e1e1f2;
-    padding-right: 00px ;
+    padding-right: 200px ;
 }
 
 /* about section */
 .about_section {
     height: 600px;
     width: 100%;
+    background-size: cover;
  }
  .about_left {
     float: left;
@@ -88,51 +88,74 @@ button {
  .workshop_section {
     height: 600px;
     width: 100%;
+ 
+    
 
  }
  .workshop_left{
     float: left;
-    width: 30%;
+    width: 35%;
     height: 100%;
     background-color: rgb(255, 255, 255);
-    text-align: center;
  }
 
  .workshop_left h1{
-    padding-top:200px ;    
+    padding-top:200px ; 
+    padding-left: 40px;
+    
+       
  }
  .workshop_left p {
     padding:40px ;
 }
+
+.workshop_left button{
+    margin-left: 40px;
+}
  .workshop_right {
     float: right;
-    width: 70%;
-    height: 100%; 
+    width: 65%;
+    height: 600px;
+    
  }
+ .workshop_right img{
+     height:100% ;
+ }
+ 
  /* studio section */
  .studio_section {
     height: 600px;
     width: 100%;
+    
  }
  .studio_left {
     float: left;
-    width: 70%;
-    height: 100%; 
+    width: 65%;
+    height: 600px;
+ 
+ }
+
+ .studio_left img{
+     height: 100%;
  }
 
  .studio_right{
     float: right;
-    width: 30%;
+    width: 35%;
     height: 100%;
     color: #fff;
     background-color: rgb(44, 43, 43);
-    text-align: center;
+    
  }
 
  .studio_right h1{
+    padding-left: 40px;
     padding-top:200px ;    
  }
  .studio_right p {
     padding:40px ;
+}
+.studio_right button{
+    margin-left: 40px;
 }
 
