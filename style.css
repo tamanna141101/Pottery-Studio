@@ -12,14 +12,20 @@ button {
     background: #f1bf73;
     border: none;
     font-size: 12px;
+    text-transform: uppercase;
+
 }
 
-.header_section {
-    height: 650px;
-    width: 100%;
-    background-image: url("Image_1.png");
+.main{
     background-position: center;
     background-size: cover;
+}
+/* Header section */
+
+.header_section {
+    height:700px;
+    width: 100%;
+    background-image: url("Image_1.png");  
     color: #fff;
 }
 
@@ -31,53 +37,102 @@ button {
 
 .content h1 {
     font-size: 35px;
-    margin: 10px 0;
 }
 
 .content p {
     font-size: 16px;
     margin: 20px 0px;
     color: #e9e1e1f2;
-    padding-right: 200px;
+    padding-right: 00px ;
 }
 
-.about {
+/* about section */
+.about_section {
     height: 600px;
     width: 100%;
  }
- .left {
+ .about_left {
     float: left;
     width: 50%;
     height: 100%;
-    color: #fff;
-    background-color: #333;
+    color: rgb(255, 255, 255);
+    background-color: rgb(44, 43, 43);
     text-align: center;
     
  }
- .left h1{
+ .about_left h1{
     padding-top:200px ;    
  }
- .left p {
+ .about_left p {
     padding:40px ;
 }
- .right {
+ .about_right {
     float: right;
     width: 50%;
     height: 100%;
     color: #fff;
-    background-color: #262222;
+    background-color: rgb(38, 34, 34);
     text-align: center;
 }
-.right  h1{
-    padding-top:200px ;
-    
+.about_right  h1{
+    padding-top:200px ;    
 }
-.right h4{
-    padding-top:40px ;
-     
+.about_right h4{
+    padding-top:40px ;     
  }
- .right p{
-    padding-bottom:25px ;
-       
+ .about_right p{
+    padding-bottom:25px ;       
  }
+
+ /* workahop section */
+ .workshop_section {
+    height: 600px;
+    width: 100%;
+
+ }
+ .workshop_left{
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+ }
+
+ .workshop_left h1{
+    padding-top:200px ;    
+ }
+ .workshop_left p {
+    padding:40px ;
+}
+ .workshop_right {
+    float: right;
+    width: 70%;
+    height: 100%; 
+ }
+ /* studio section */
+ .studio_section {
+    height: 600px;
+    width: 100%;
+ }
+ .studio_left {
+    float: left;
+    width: 70%;
+    height: 100%; 
+ }
+
+ .studio_right{
+    float: right;
+    width: 30%;
+    height: 100%;
+    color: #fff;
+    background-color: rgb(44, 43, 43);
+    text-align: center;
+ }
+
+ .studio_right h1{
+    padding-top:200px ;    
+ }
+ .studio_right p {
+    padding:40px ;
+}
 
